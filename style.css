@@ -1,0 +1,150 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+.wrapper {
+	min-height: 100vh;
+	min-width: 550px;
+	display: flex;
+	flex-direction: column;
+}
+
+.fullscreen {
+	min-height: 100vh;
+	display: flex;
+	background: url("bg1.jpg") center / cover no-repeat;
+	justify-content: center;
+	align-items: center;
+}
+
+.fullscreen_title {
+	font-size: 50px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 1000;
+	margin: 20px 0 30px 0;
+}
+
+h2 {
+	font-size: 40px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 1000;
+}
+
+p {
+	font-size: 20px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 1000;
+}
+
+.list {
+	font-size: 20px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 1000;
+}
+
+.fullscreen_body {
+	flex: 1 1 auto;
+	max-width: 900px;
+	max-height: 600px;
+	min-height: 500px;
+	margin: 0px auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 0 20px;
+	background-color: rgba(0,0,0,0.85);
+	border-radius: 10px;
+}
+
+.photo {
+
+}
+.photofirst {
+	max-width: 200px;
+	border-radius: 50%;
+}
+.textaboutme {
+	max-width: 300px;
+	min-height: 150px;
+}
+
+.wrapperforitems {
+	display: flex;
+	flex-direction: row;
+}
+
+.leftcolumn {
+	align-items: center;
+	justify-content: center;
+	margin: 0px;
+	padding: 0 20px 0 0;
+}
+
+.rightcolumn {
+	align-items: center;
+	justify-content: center;
+	margin: 0px;
+	padding: 0 40px 0 40px;
+}
+.list {
+	max-width: 200px;
+}
+.skills {
+	min-height: 200px;
+}
+.logo {
+	margin: 10px 0 10px 0;
+	min-height: 150px;
+	justify-content: center;
+	align-items: center;
+}
+
+#vkpng {
+	margin: 0 10px;
+}
+
+#instpng {
+	margin: 0 10px;
+}
